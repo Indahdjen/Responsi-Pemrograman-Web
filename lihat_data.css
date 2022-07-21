@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(apaiya.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border-bottom: solid 3px #303956;
+    color: #303956;
+}
+
+.container-data{
+    background: rgba(156, 196, 162, 0.4);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.65);
+    border-radius: 8px;
+    height: 280px;
+    margin: 5rem auto 8.1rem auto;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.konten-data{
+    letter-spacing: 4px;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 150px;
+    color: white;
+}
+
+input[id=submit-btn3]{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    width: 10.5cm;
+    background-color: #305237;
+    color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+input[id=submit-btn3]:hover{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    width: 10.5cm;
+    background-color: #203731;
+    color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(apaiya.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border-bottom: solid 3px #303956;
+    color: #303956;
+}
+
+.table2{
+    margin-top: -80px;
+    margin-left: 65px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: rgba(156, 196, 162, 0.4);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 500px;
+    width: 560px;
+    text-align: -webkit-center;
+}
+
+input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 11cm;
+    background-color: #EBF8F1;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    cursor: pointer;
+}
+
+input[type=submit],input[type=reset]{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 4cm;
+    background-color: #203731;
+    color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 4cm;
+    background-color: #445F4A;
+    color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    cursor: pointer;
+}
+
+input[id=submit-btn2]{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 5.5cm;
+    background-color: #305237;
+    color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    cursor: pointer;
+}
+
+input[id=submit-btn2]:hover{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 5.5cm;
+    background-color: #203731;
+    color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    cursor: pointer;
+}

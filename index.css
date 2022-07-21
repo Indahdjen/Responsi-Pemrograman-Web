@@ -1,0 +1,66 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(apaiya.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border-bottom: solid 3px #303956;
+    color: #303956;
+}
+
+.container-awal{
+    background: rgba(156, 196, 162, 0.4);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.65);
+    border-radius: 8px;
+    height: 600px;
+    margin: 5rem auto 8.1rem auto;
+    width: 560px;
+    margin-top: 100px;
+}
+
+.konten-awal{
+    letter-spacing: 4px;
+    padding-top: 1px;
+    text-align: center;
+    color: white;
+}
+
+#submit-btn{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #305237;
+    height: 65px;
+    margin-left: 16%;
+    margin-top: 7%;
+    width: 385px;
+    font-size: 30px;
+}
+
+#submit-btn:hover{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #203731;
+    height: 65px;
+    margin: 0 auto;
+    margin-left: 16%;
+    margin-top: 7%;
+    transition: 0.25s;
+    width: 385px;
+    font-size: 30px;
+}
